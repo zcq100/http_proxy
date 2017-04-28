@@ -9,7 +9,6 @@ require 'timeout'
 url="http://www.xicidaili.com/"
 list=Queue.new
 html=open(url) {|f|f.read}
-
 #page ip match
 regex=/<tr class="">\s*<td[\s\S]*?><\/td>\s*<td>([\d|.]*?)<\/td>\s*<td>([\d|.]*?)<\/td>\s*<td>(\S*?)<\/td>/
 #get proxy list
